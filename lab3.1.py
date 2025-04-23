@@ -1,0 +1,8 @@
+str=input("Enter a string:")
+str1=str.lower()
+a=str1.count("a")
+e=str1.count("e")
+i=str1.count("i")
+o=str1.count("o")
+u=str1.count("u")
+print("this string has",a+e+i+o+u," vowels")
